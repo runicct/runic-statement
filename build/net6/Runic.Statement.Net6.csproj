@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Runic.Statement</AssemblyName>
+    <RootNamespace>Runic.Statement</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\src\IStatementStream.cs" Link="IStatementStream.cs" />
+    <Compile Include="..\..\src\Statement.cs" Link="Statement.cs" />
+    <Compile Include="..\..\src\StatementQueue.cs" Link="StatementQueue.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Runic.Token" Version="1.0.1" />
+  </ItemGroup>
+</Project>
