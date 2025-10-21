@@ -26,6 +26,5 @@ namespace Runic
 {
     public abstract class Statement
     {
-        public abstract ITokenStream GetTokens();
     }
 }
